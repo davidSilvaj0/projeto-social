@@ -52,7 +52,10 @@ main
 
 #redes-sociais
 {
-    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
 }
 
 #redes-sociais img
